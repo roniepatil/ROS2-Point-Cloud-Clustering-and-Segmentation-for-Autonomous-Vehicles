@@ -1,0 +1,8 @@
+[  6%] [32mBuilding CXX object CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o[0m
+[ 18%] Built target circular_cloud
+[ 31%] Built target pcd_import
+[ 43%] Built target kd_tree
+[ 56%] Built target plane_cloud
+[ 68%] Built target filtering_segmentation
+[ 81%] Built target path_creation
+[ 93%] Built target kitti_voxel

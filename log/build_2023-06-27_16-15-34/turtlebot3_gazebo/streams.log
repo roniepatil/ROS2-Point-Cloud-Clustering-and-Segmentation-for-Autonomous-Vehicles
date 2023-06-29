@@ -1,0 +1,84 @@
+[0.007s] Invoking command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake /home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/rohit/pcl_ws/install/turtlebot3_gazebo
+[0.025s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.091s] [33mCMake Warning (dev) at /home/rohit/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.091s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.091s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.091s]   problems in calling code that expects `find_package` result variables
+[0.091s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.091s] Call Stack (most recent call first):
+[0.091s]   /home/rohit/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.091s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.091s]   CMakeLists.txt:23 (find_package)
+[0.091s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.091s] [0m
+[0.105s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.123s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.124s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.127s] -- Searching for dependencies of ignition-math6
+[0.128s] -- Looking for OGRE...
+[0.131s] -- Found Ogre Ghadamon (1.9.0)
+[0.131s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.138s] -- Looking for OGRE_Paging...
+[0.138s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.139s] -- Looking for OGRE_Terrain...
+[0.139s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.139s] -- Looking for OGRE_Property...
+[0.139s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.139s] -- Looking for OGRE_RTShaderSystem...
+[0.139s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.139s] -- Looking for OGRE_Volume...
+[0.139s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.139s] -- Looking for OGRE_Overlay...
+[0.139s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.229s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.229s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.229s] -- Searching for dependencies of ignition-transport8
+[0.242s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.248s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.251s] -- Checking for module 'libzmq >= 4'
+[0.258s] --   Found libzmq , version 4.3.4
+[0.276s] -- Checking for module 'uuid'
+[0.281s] --   Found uuid, version 2.37.2
+[0.294s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.295s] -- Searching for dependencies of ignition-msgs5
+[0.307s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.310s] -- Checking for module 'tinyxml2'
+[0.317s] --   Found tinyxml2, version 9.0.0
+[0.331s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.331s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.332s] -- Searching for dependencies of ignition-common3
+[0.332s] -- Looking for dlfcn.h - found
+[0.332s] -- Looking for libdl - found
+[0.340s] -- Searching for <ignition-common3> component [graphics]
+[0.340s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.340s] -- Searching for dependencies of ignition-common3-graphics
+[0.340s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.341s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.342s] -- Searching for dependencies of ignition-fuel_tools4
+[0.365s] -- Checking for module 'jsoncpp'
+[0.372s] --   Found jsoncpp, version 1.9.5
+[0.388s] -- Checking for module 'libzip'
+[0.394s] --   Found libzip, version 1.7.3
+[0.408s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.408s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.408s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.417s] -- Configuring incomplete, errors occurred!
+[0.417s] See also "/home/rohit/pcl_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.417s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[0.417s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[0.417s]   project has asked CMake to find a package configuration file provided by
+[0.417s]   "gazebo_ros_pkgs", but CMake did not find one.
+[0.417s] 
+[0.417s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[0.417s]   with any of the following names:
+[0.417s] 
+[0.417s]     gazebo_ros_pkgsConfig.cmake
+[0.417s]     gazebo_ros_pkgs-config.cmake
+[0.417s] 
+[0.417s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[0.417s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[0.417s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[0.417s]   sure it has been installed.
+[0.417s] 
+[0.417s] [0m
+[0.424s] Invoked command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake /home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/rohit/pcl_ws/install/turtlebot3_gazebo

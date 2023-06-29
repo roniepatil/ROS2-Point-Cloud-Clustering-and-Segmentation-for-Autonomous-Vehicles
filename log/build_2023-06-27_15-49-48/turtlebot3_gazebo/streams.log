@@ -1,0 +1,35 @@
+[0.006s] Invoking command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake /home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/rohit/pcl_ws/install/turtlebot3_gazebo
+[0.053s] -- The C compiler identification is GNU 11.3.0
+[0.090s] -- The CXX compiler identification is GNU 11.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.187s] -- Detecting CXX compile features
+[0.187s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.437s] -- Configuring incomplete, errors occurred!
+[0.438s] See also "/home/rohit/pcl_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.438s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[0.438s]   By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+[0.438s]   asked CMake to find a package configuration file provided by "gazebo", but
+[0.438s]   CMake did not find one.
+[0.438s] 
+[0.438s]   Could not find a package configuration file provided by "gazebo" with any
+[0.438s]   of the following names:
+[0.438s] 
+[0.438s]     gazeboConfig.cmake
+[0.439s]     gazebo-config.cmake
+[0.439s] 
+[0.439s]   Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+[0.439s]   "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+[0.439s]   provides a separate development package or SDK, be sure it has been
+[0.439s]   installed.
+[0.439s] 
+[0.439s] [0m
+[0.444s] Invoked command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake /home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/rohit/pcl_ws/install/turtlebot3_gazebo

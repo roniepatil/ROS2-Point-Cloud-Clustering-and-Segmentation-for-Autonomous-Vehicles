@@ -1,0 +1,7 @@
+[01m[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/7_traffic_segmentation.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud2.hpp: No such file or directory
+    7 | #include [01;31m[K"sensor_msgs/msg/point_cloud2.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/traffic_segmentation.dir/build.make:76: CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/traffic_segmentation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,42 @@
+[0.019s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.075s] [ 37%] Built target plane_cloud
+[0.075s] [ 37%] Built target kd_tree
+[0.075s] [ 37%] Built target circular_cloud
+[0.075s] [ 50%] Built target path_creation
+[0.075s] [ 62%] Built target filtering_segmentation
+[0.075s] [ 75%] Built target pcd_import
+[0.076s] [ 87%] Built target kitti_voxel
+[0.077s] [100%] Built target traffic_segmentation
+[0.083s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.151s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --install /home/rohit/pcl_ws/build/point_cloud_processing
+[0.168s] -- Install configuration: ""
+[0.169s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/pcd_import
+[0.169s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud
+[0.170s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/circular_cloud
+[0.170s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/filtering_segmentation
+[0.170s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/path_creation
+[0.170s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel
+[0.171s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/kd_tree
+[0.171s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation
+[0.171s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch
+[0.171s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch/rtab_mapping.launch.py
+[0.171s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch/process_kitti.launch.py
+[0.171s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch/bring_rviz.launch.py
+[0.171s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/rviz
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/rviz/kitti_viz.rviz
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[0.172s] -- Installing: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[0.172s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[0.176s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --install /home/rohit/pcl_ws/build/point_cloud_processing

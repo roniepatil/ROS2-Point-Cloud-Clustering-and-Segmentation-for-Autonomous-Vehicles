@@ -1,0 +1,60 @@
+[0.014s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.038s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.118s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.153s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.353s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.357s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.357s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.475s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.479s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.482s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.595s] -- Found Qhull version 8.0.2
+[0.712s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.825s] -- looking for PCL_COMMON
+[0.825s] -- looking for PCL_KDTREE
+[0.826s] -- looking for PCL_OCTREE
+[0.826s] -- looking for PCL_SEARCH
+[0.826s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.826s] -- looking for PCL_FILTERS
+[0.826s] -- looking for PCL_2D
+[0.826s] -- looking for PCL_GEOMETRY
+[0.827s] -- looking for PCL_IO
+[0.827s] -- looking for PCL_FEATURES
+[0.827s] -- looking for PCL_ML
+[0.827s] -- looking for PCL_SEGMENTATION
+[0.828s] -- looking for PCL_VISUALIZATION
+[0.828s] -- looking for PCL_SURFACE
+[0.828s] -- looking for PCL_REGISTRATION
+[0.828s] -- looking for PCL_KEYPOINTS
+[0.829s] -- looking for PCL_TRACKING
+[0.829s] -- looking for PCL_RECOGNITION
+[0.829s] -- looking for PCL_STEREO
+[0.830s] -- looking for PCL_APPS
+[0.830s] -- looking for PCL_IN_HAND_SCANNER
+[0.830s] -- looking for PCL_MODELER
+[0.831s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.831s] -- looking for PCL_OUTOFCORE
+[0.831s] -- looking for PCL_PEOPLE
+[0.832s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.848s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.850s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.854s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.913s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.914s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.990s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.095s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.177s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.262s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.380s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.380s]   ament_target_dependencies() the passed package name 'kitti_voxel' was not
+[1.380s]   found before
+[1.380s] Call Stack (most recent call first):
+[1.380s]   CMakeLists.txt:48 (ament_target_dependencies)
+[1.380s] 
+[1.380s] [0m
+[1.380s] -- Configuring incomplete, errors occurred!
+[1.380s] See also "/home/rohit/pcl_ws/build/point_cloud_processing/CMakeFiles/CMakeOutput.log".
+[1.389s] gmake: *** [Makefile:554: cmake_check_build_system] Error 1
+[1.393s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20

@@ -1,0 +1,6 @@
+Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': /home/rohit/.local/bin/cmake /home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing -DCMAKE_INSTALL_PREFIX=/home/rohit/pcl_ws/install/point_cloud_processing
+Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': /home/rohit/.local/bin/cmake /home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing -DCMAKE_INSTALL_PREFIX=/home/rohit/pcl_ws/install/point_cloud_processing
+Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': /home/rohit/.local/bin/cmake --install /home/rohit/pcl_ws/build/point_cloud_processing
+Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': /home/rohit/.local/bin/cmake --install /home/rohit/pcl_ws/build/point_cloud_processing

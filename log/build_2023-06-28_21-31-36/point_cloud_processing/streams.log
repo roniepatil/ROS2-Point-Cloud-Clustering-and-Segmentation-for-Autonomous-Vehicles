@@ -1,0 +1,68 @@
+[0.015s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.039s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.116s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.145s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.348s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.351s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.352s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.473s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.477s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.481s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.610s] -- Found Qhull version 8.0.2
+[0.745s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.875s] -- looking for PCL_COMMON
+[0.875s] -- looking for PCL_KDTREE
+[0.876s] -- looking for PCL_OCTREE
+[0.876s] -- looking for PCL_SEARCH
+[0.876s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.876s] -- looking for PCL_FILTERS
+[0.877s] -- looking for PCL_2D
+[0.877s] -- looking for PCL_GEOMETRY
+[0.877s] -- looking for PCL_IO
+[0.877s] -- looking for PCL_FEATURES
+[0.878s] -- looking for PCL_ML
+[0.878s] -- looking for PCL_SEGMENTATION
+[0.878s] -- looking for PCL_VISUALIZATION
+[0.878s] -- looking for PCL_SURFACE
+[0.879s] -- looking for PCL_REGISTRATION
+[0.879s] -- looking for PCL_KEYPOINTS
+[0.879s] -- looking for PCL_TRACKING
+[0.880s] -- looking for PCL_RECOGNITION
+[0.880s] -- looking for PCL_STEREO
+[0.880s] -- looking for PCL_APPS
+[0.881s] -- looking for PCL_IN_HAND_SCANNER
+[0.881s] -- looking for PCL_MODELER
+[0.881s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.881s] -- looking for PCL_OUTOFCORE
+[0.882s] -- looking for PCL_PEOPLE
+[0.883s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.902s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.904s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.909s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.931s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.977s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.978s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.065s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.186s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.280s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.377s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.549s] -- Configuring done
+[1.601s] -- Generating done
+[1.603s] -- Build files have been written to: /home/rohit/pcl_ws/build/point_cloud_processing
+[1.622s] [  6%] [32mBuilding CXX object CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o[0m
+[1.627s] [ 18%] Built target plane_cloud
+[1.627s] [ 31%] Built target pcd_import
+[1.627s] [ 43%] Built target circular_cloud
+[1.628s] [ 56%] Built target kd_tree
+[1.629s] [ 68%] Built target path_creation
+[1.631s] [ 87%] Built target filtering_segmentation
+[1.631s] [ 93%] Built target kitti_voxel
+[1.666s] [01m[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/7_traffic_segmentation.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[1.666s]     4 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[1.666s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.666s] compilation terminated.
+[1.667s] gmake[2]: *** [CMakeFiles/traffic_segmentation.dir/build.make:76: CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o] Error 1
+[1.667s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/traffic_segmentation.dir/all] Error 2
+[1.667s] gmake: *** [Makefile:146: all] Error 2
+[1.672s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20

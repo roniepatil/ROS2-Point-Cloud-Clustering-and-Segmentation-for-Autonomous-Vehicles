@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (point_cloud_processing) JobQueued: {'identifier': 'point_cloud_processing', 'dependencies': OrderedDict()}
+[0.000144] (point_cloud_processing) JobStarted: {'identifier': 'point_cloud_processing'}
+[0.005261] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'cmake'}
+[0.005502] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'build'}
+[0.005861] (point_cloud_processing) Command: {'cmd': ['/home/rohit/.local/bin/cmake', '--build', '/home/rohit/pcl_ws/build/point_cloud_processing', '--', '-j20', '-l20'], 'cwd': '/home/rohit/pcl_ws/build/point_cloud_processing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/rohit'), ('CHROME_DESKTOP', 'Hyper.desktop'), ('OLDPWD', '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour'), ('TERM_PROGRAM_VERSION', '3.4.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/hyper.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2041'), ('SYSTEMD_EXEC_PID', '2558'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8357'), ('COLCON_PREFIX_PATH', '/home/rohit/pcl_ws/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohit'), ('JOURNAL_STREAM', '8:47256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rohit/.local/bin:/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/cuda-11.8/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blade:@/tmp/.ICE-unix/2530,unix/blade:/tmp/.ICE-unix/2530'), ('INVOCATION_ID', 'b5e41992ee804f0ab4a7320909346d7c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'Hyper'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', ''), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/pcl_ws/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohit/ros2_ws/build/my_robot_controller:/home/rohit/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.036513] (point_cloud_processing) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.041263] (point_cloud_processing) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.054127] (point_cloud_processing) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.054236] (point_cloud_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.061952] (point_cloud_processing) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.070701] (point_cloud_processing) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.075799] (point_cloud_processing) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.097711] (point_cloud_processing) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.097811] (point_cloud_processing) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.098933] (-) TimerEvent: {}
+[0.124769] (point_cloud_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.160417] (point_cloud_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.160951] (point_cloud_processing) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.162326] (point_cloud_processing) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.165890] (point_cloud_processing) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.199019] (-) TimerEvent: {}
+[0.234952] (point_cloud_processing) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.235169] (point_cloud_processing) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.236945] (point_cloud_processing) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[0.245165] (point_cloud_processing) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.261470] (point_cloud_processing) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.270866] (point_cloud_processing) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[0.299190] (-) TimerEvent: {}
+[0.321472] (point_cloud_processing) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.321606] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.355171] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.355298] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.385224] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.385334] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.399293] (-) TimerEvent: {}
+[0.414806] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.414903] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.445207] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.445324] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[0.474884] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[0.474992] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[0.499489] (-) TimerEvent: {}
+[0.506261] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[0.554275] (point_cloud_processing) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[0.555606] (point_cloud_processing) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[0.557414] (point_cloud_processing) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[0.558503] (point_cloud_processing) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[0.565973] (point_cloud_processing) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[0.568867] (point_cloud_processing) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[0.573722] (point_cloud_processing) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[0.577004] (point_cloud_processing) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[0.599677] (-) TimerEvent: {}
+[0.614938] (point_cloud_processing) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.620831] (point_cloud_processing) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[0.635594] (point_cloud_processing) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[0.636283] (point_cloud_processing) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[0.636344] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.658794] (point_cloud_processing) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[0.658871] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.659010] (point_cloud_processing) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.699860] (-) TimerEvent: {}
+[0.794305] (point_cloud_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.798088] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.800031] (-) TimerEvent: {}
+[0.801766] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.900226] (-) TimerEvent: {}
+[0.930536] (point_cloud_processing) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.000422] (-) TimerEvent: {}
+[1.056845] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.100608] (-) TimerEvent: {}
+[1.170645] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.171162] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.171223] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.171934] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.171997] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.172461] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.172524] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.172908] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.172943] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.173621] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.173684] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.174179] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.174248] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.174397] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[1.174468] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.174499] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[1.174548] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.175066] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.175129] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.175662] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.175724] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.176209] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.176256] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.176832] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.176896] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.177415] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.177492] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.178001] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.178050] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.178588] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.178656] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.179214] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.179272] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.179789] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.179839] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.180386] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.180493] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.181153] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.181258] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.181673] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.182042] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.182154] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[1.182224] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.182401] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[1.182470] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.182664] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[1.182731] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.183311] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.183365] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.183955] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.184516] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.12") \n'}
+[1.184738] (point_cloud_processing) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.184801] (point_cloud_processing) StdoutLine: {'line': b'See also "/home/rohit/pcl_ws/build/point_cloud_processing/CMakeFiles/CMakeOutput.log".\n'}
+[1.184829] (point_cloud_processing) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:37 (ament_package):\n'}
+[1.184857] (point_cloud_processing) StderrLine: {'line': b'  Unknown CMake command "ament_package".\n'}
+[1.184882] (point_cloud_processing) StderrLine: {'line': b'\n'}
+[1.184904] (point_cloud_processing) StderrLine: {'line': b'\x1b[0m\n'}
+[1.189870] (point_cloud_processing) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.192954] (point_cloud_processing) CommandEnded: {'returncode': 2}
+[1.200777] (-) TimerEvent: {}
+[1.228611] (point_cloud_processing) JobEnded: {'identifier': 'point_cloud_processing', 'rc': 2}
+[1.239212] (-) EventReactorShutdown: {}

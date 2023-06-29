@@ -1,0 +1,950 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (point_cloud_processing) JobQueued: {'identifier': 'point_cloud_processing', 'dependencies': OrderedDict()}
+[0.000174] (ros2_kitti_publishers) JobQueued: {'identifier': 'ros2_kitti_publishers', 'dependencies': OrderedDict()}
+[0.000184] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000192] (point_cloud_processing) JobStarted: {'identifier': 'point_cloud_processing'}
+[0.005698] (ros2_kitti_publishers) JobStarted: {'identifier': 'ros2_kitti_publishers'}
+[0.008724] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.012475] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'cmake'}
+[0.012796] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'build'}
+[0.013285] (point_cloud_processing) Command: {'cmd': ['/home/rohit/.local/bin/cmake', '--build', '/home/rohit/pcl_ws/build/point_cloud_processing', '--', '-j20', '-l20'], 'cwd': '/home/rohit/pcl_ws/build/point_cloud_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rohit/pcl_ws/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/cuda-11.8/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blade:@/tmp/.ICE-unix/2387,unix/blade:/tmp/.ICE-unix/2387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7534d42_6668_4bd3_9f5a_8d92bed3d800'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/pcl_ws/build/point_cloud_processing'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.014671] (ros2_kitti_publishers) JobProgress: {'identifier': 'ros2_kitti_publishers', 'progress': 'cmake'}
+[0.015339] (ros2_kitti_publishers) JobProgress: {'identifier': 'ros2_kitti_publishers', 'progress': 'build'}
+[0.015351] (ros2_kitti_publishers) Command: {'cmd': ['/home/rohit/.local/bin/cmake', '--build', '/home/rohit/pcl_ws/build/ros2_kitti_publishers', '--', '-j20', '-l20'], 'cwd': '/home/rohit/pcl_ws/build/ros2_kitti_publishers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rohit/pcl_ws/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/cuda-11.8/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blade:@/tmp/.ICE-unix/2387,unix/blade:/tmp/.ICE-unix/2387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7534d42_6668_4bd3_9f5a_8d92bed3d800'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/pcl_ws/build/ros2_kitti_publishers'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.016893] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.017340] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.017585] (turtlebot3_gazebo) Command: {'cmd': ['/home/rohit/.local/bin/cmake', '--build', '/home/rohit/pcl_ws/build/turtlebot3_gazebo', '--', '-j20', '-l20'], 'cwd': '/home/rohit/pcl_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rohit/pcl_ws/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/cuda-11.8/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blade:@/tmp/.ICE-unix/2387,unix/blade:/tmp/.ICE-unix/2387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7534d42_6668_4bd3_9f5a_8d92bed3d800'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/pcl_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.048172] (point_cloud_processing) StdoutLine: {'line': b'[ 12%] Built target pcd_import\n'}
+[0.048401] (point_cloud_processing) StdoutLine: {'line': b'[ 25%] Built target circular_cloud\n'}
+[0.049060] (point_cloud_processing) StdoutLine: {'line': b'[ 37%] Built target plane_cloud\n'}
+[0.049806] (point_cloud_processing) StdoutLine: {'line': b'[ 50%] Built target kd_tree\n'}
+[0.050152] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_drive\n'}
+[0.052762] (point_cloud_processing) StdoutLine: {'line': b'[ 62%] Built target path_creation\n'}
+[0.053793] (point_cloud_processing) StdoutLine: {'line': b'[ 75%] Built target filtering_segmentation\n'}
+[0.057460] (point_cloud_processing) StdoutLine: {'line': b'[ 87%] Built target traffic_segmentation\n'}
+[0.057574] (ros2_kitti_publishers) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kitti_publishers.dir/src/node/kitti_publishers_node.cpp.o\x1b[0m\n'}
+[0.057681] (point_cloud_processing) StdoutLine: {'line': b'[100%] Built target kitti_voxel\n'}
+[0.060336] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target obstacle2\n'}
+[0.060671] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target obstacle1\n'}
+[0.061352] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target obstacles\n'}
+[0.064186] (point_cloud_processing) CommandEnded: {'returncode': 0}
+[0.067080] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[0.098929] (-) TimerEvent: {}
+[0.101133] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[0.120961] (turtlebot3_gazebo) Command: {'cmd': ['/home/rohit/.local/bin/cmake', '--install', '/home/rohit/pcl_ws/build/turtlebot3_gazebo'], 'cwd': '/home/rohit/pcl_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rohit/pcl_ws/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/cuda-11.8/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blade:@/tmp/.ICE-unix/2387,unix/blade:/tmp/.ICE-unix/2387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7534d42_6668_4bd3_9f5a_8d92bed3d800'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/pcl_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.122291] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'install'}
+[0.123059] (point_cloud_processing) Command: {'cmd': ['/home/rohit/.local/bin/cmake', '--install', '/home/rohit/pcl_ws/build/point_cloud_processing'], 'cwd': '/home/rohit/pcl_ws/build/point_cloud_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rohit/pcl_ws/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/cuda-11.8/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blade:@/tmp/.ICE-unix/2387,unix/blade:/tmp/.ICE-unix/2387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7534d42_6668_4bd3_9f5a_8d92bed3d800'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/pcl_ws/build/point_cloud_processing'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[0.137827] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.138050] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[0.138152] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[0.138218] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[0.138284] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[0.138347] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[0.138411] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[0.138491] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[0.138708] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[0.138773] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[0.138836] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[0.138901] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[0.138964] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[0.139090] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[0.139221] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[0.139331] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[0.139413] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[0.139487] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[0.139556] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[0.139627] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[0.139697] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[0.139796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[0.139894] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[0.139973] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[0.140054] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[0.140125] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[0.140184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[0.140249] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[0.140308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[0.140367] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[0.140427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[0.140487] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[0.140547] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[0.140608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[0.140670] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[0.140743] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[0.140806] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[0.140872] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[0.140933] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[0.140999] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[0.141061] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[0.141121] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[0.141183] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[0.141246] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[0.141308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[0.141370] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[0.141433] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[0.141498] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[0.141562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[0.141625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[0.141685] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[0.141747] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[0.141809] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[0.141870] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[0.141931] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[0.141996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[0.142105] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[0.142202] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[0.142370] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[0.142793] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[0.142908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[0.142970] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[0.143031] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[0.143091] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[0.143151] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[0.143682] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[0.143760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[0.144383] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[0.144556] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[0.144676] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[0.144750] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[0.144871] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[0.144981] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[0.145055] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[0.145119] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[0.145205] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[0.145329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[0.145746] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[0.145857] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[0.145926] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[0.146042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[0.146144] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[0.146430] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/include/\n'}
+[0.146576] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[0.147293] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[0.147405] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[0.147515] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[0.147586] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[0.147980] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.148263] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[0.148462] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[0.148553] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[0.148712] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[0.148795] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[0.148926] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[0.149046] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[0.149122] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[0.149203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.149295] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.149379] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[0.149469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[0.149556] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[0.149632] (point_cloud_processing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.149715] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/pcd_import\n'}
+[0.150624] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud\n'}
+[0.150933] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/circular_cloud\n'}
+[0.151026] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/filtering_segmentation\n'}
+[0.151311] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/path_creation\n'}
+[0.151477] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel\n'}
+[0.151769] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/kd_tree\n'}
+[0.152084] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation\n'}
+[0.153344] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch\n'}
+[0.153711] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch/rtab_mapping.launch.py\n'}
+[0.153849] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch/process_kitti.launch.py\n'}
+[0.154116] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/launch/bring_rviz.launch.py\n'}
+[0.154283] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/rviz\n'}
+[0.154625] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/rviz/kitti_viz.rviz\n'}
+[0.154715] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing\n'}
+[0.155105] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing\n'}
+[0.155202] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh\n'}
+[0.155632] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv\n'}
+[0.155830] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh\n'}
+[0.155938] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv\n'}
+[0.156236] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash\n'}
+[0.156660] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh\n'}
+[0.156722] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh\n'}
+[0.156920] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv\n'}
+[0.157181] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/package.dsv\n'}
+[0.157331] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing\n'}
+[0.157369] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake\n'}
+[0.157400] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake\n'}
+[0.157529] (point_cloud_processing) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/package.xml\n'}
+[0.157563] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[0.158856] (point_cloud_processing) CommandEnded: {'returncode': 0}
+[0.196926] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[0.198995] (-) TimerEvent: {}
+[0.208415] (point_cloud_processing) JobEnded: {'identifier': 'point_cloud_processing', 'rc': 0}
+[0.299132] (-) TimerEvent: {}
+[0.399465] (-) TimerEvent: {}
+[0.499803] (-) TimerEvent: {}
+[0.600130] (-) TimerEvent: {}
+[0.700465] (-) TimerEvent: {}
+[0.800789] (-) TimerEvent: {}
+[0.901109] (-) TimerEvent: {}
+[1.001456] (-) TimerEvent: {}
+[1.101720] (-) TimerEvent: {}
+[1.202061] (-) TimerEvent: {}
+[1.302407] (-) TimerEvent: {}
+[1.402643] (-) TimerEvent: {}
+[1.502970] (-) TimerEvent: {}
+[1.603210] (-) TimerEvent: {}
+[1.703434] (-) TimerEvent: {}
+[1.803693] (-) TimerEvent: {}
+[1.904021] (-) TimerEvent: {}
+[2.004326] (-) TimerEvent: {}
+[2.104594] (-) TimerEvent: {}
+[2.204858] (-) TimerEvent: {}
+[2.305206] (-) TimerEvent: {}
+[2.405515] (-) TimerEvent: {}
+[2.505856] (-) TimerEvent: {}
+[2.606188] (-) TimerEvent: {}
+[2.625245] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.625384] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.625423] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.625453] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.625482] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.625509] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.625537] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.625564] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.625590] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.625619] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.625647] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.625675] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.625700] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.625726] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.625752] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.625777] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.625804] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.625830] (ros2_kitti_publishers) StderrLine: {'line': b'  337 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.625856] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.698145] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.698285] (ros2_kitti_publishers) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.698323] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.698354] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.698389] (ros2_kitti_publishers) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[2.698420] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.698450] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.698492] (ros2_kitti_publishers) StderrLine: {'line': b'  368 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[2.698521] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706353] (-) TimerEvent: {}
+[2.746297] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.746448] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.746494] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.746526] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.746557] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.746586] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.746614] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.746643] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.746681] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.746711] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.746885] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.746934] (ros2_kitti_publishers) StderrLine: {'line': b'  318 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.746966] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.746995] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747024] (ros2_kitti_publishers) StderrLine: {'line': b'  411 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K;\n'}
+[2.747052] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.747078] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.747109] (ros2_kitti_publishers) StderrLine: {'line': b'  411 |     PCL_ADD_INTENSITY\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.747136] (ros2_kitti_publishers) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.747163] (ros2_kitti_publishers) StderrLine: {'line': b'      |                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[2.747188] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.747218] (ros2_kitti_publishers) StderrLine: {'line': b'  324 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.747248] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.747276] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747305] (ros2_kitti_publishers) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K;\n'}
+[2.747334] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.747363] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.747391] (ros2_kitti_publishers) StderrLine: {'line': b'  437 |     PCL_ADD_INTENSITY_8U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.747419] (ros2_kitti_publishers) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.747445] (ros2_kitti_publishers) StderrLine: {'line': b'      |                         \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[2.747473] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.747501] (ros2_kitti_publishers) StderrLine: {'line': b'  330 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.747671] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.747710] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747747] (ros2_kitti_publishers) StderrLine: {'line': b'  469 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K;\n'}
+[2.747778] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.747807] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.747840] (ros2_kitti_publishers) StderrLine: {'line': b'  469 |     PCL_ADD_INTENSITY_32U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.747869] (ros2_kitti_publishers) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.747897] (ros2_kitti_publishers) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[2.747926] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.747955] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.747987] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.748017] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.748046] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.748075] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.748205] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.748272] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.748306] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.748338] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.748368] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.748398] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.748426] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.748460] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748491] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.748519] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.748546] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748574] (ros2_kitti_publishers) StderrLine: {'line': b'  497 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.748601] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.748628] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.748655] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.748682] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.748708] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.748734] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.748760] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.748786] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.748812] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.748840] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.748871] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.748899] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.748928] (ros2_kitti_publishers) StderrLine: {'line': b'  501 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.748956] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.748984] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.749012] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.749039] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.749068] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.749095] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.749123] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.749275] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.749315] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.749349] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.749386] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.749418] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.749449] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.749479] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.749508] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749538] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.749567] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.749597] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749625] (ros2_kitti_publishers) StderrLine: {'line': b'  533 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.749654] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.749682] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.749756] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.749786] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.749814] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749841] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.749868] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.749894] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749920] (ros2_kitti_publishers) StderrLine: {'line': b'  573 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.749950] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.749975] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.750002] (ros2_kitti_publishers) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.750027] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.750053] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750078] (ros2_kitti_publishers) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[2.750103] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750128] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750153] (ros2_kitti_publishers) StderrLine: {'line': b'  574 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[2.750178] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750204] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.750230] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.750259] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.750286] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750313] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.750339] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750365] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750391] (ros2_kitti_publishers) StderrLine: {'line': b'  629 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.750418] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750444] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.750479] (ros2_kitti_publishers) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.750507] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.750533] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750560] (ros2_kitti_publishers) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[2.750586] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750612] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750638] (ros2_kitti_publishers) StderrLine: {'line': b'  630 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[2.750663] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750688] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.750715] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.750740] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.750766] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750791] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.750818] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750853] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750883] (ros2_kitti_publishers) StderrLine: {'line': b'  636 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.750933] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750964] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.751020] (ros2_kitti_publishers) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.751048] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.751074] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751101] (ros2_kitti_publishers) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[2.751127] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.751153] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751179] (ros2_kitti_publishers) StderrLine: {'line': b'  637 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[2.751206] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.751232] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.751259] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.751285] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.751312] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751338] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.751364] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.751391] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751419] (ros2_kitti_publishers) StderrLine: {'line': b'  741 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // this adds the members x,y,z\n'}
+[2.751445] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.751470] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.751496] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.751527] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.751555] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.751582] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.751609] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.751688] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.751717] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.751744] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.751771] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.751798] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.751824] (ros2_kitti_publishers) StderrLine: {'line': b'  745 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.751851] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.751877] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.751902] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.751928] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.751954] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.751979] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.752004] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.752029] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.752055] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.752080] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.752105] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.752134] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.752159] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.752185] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.752210] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752237] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.752262] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.752291] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752319] (ros2_kitti_publishers) StderrLine: {'line': b'  782 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.752347] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.752375] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.752402] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.752428] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.752508] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.752537] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.752566] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.752593] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.752621] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.752648] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.752727] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.752755] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.752782] (ros2_kitti_publishers) StderrLine: {'line': b'  786 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.752807] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.752832] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.752857] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.752883] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.752910] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.752937] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.752963] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.752990] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.753016] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.753099] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.753129] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.753157] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.753185] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.753210] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.753236] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753262] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.753288] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.753313] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753341] (ros2_kitti_publishers) StderrLine: {'line': b'  867 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.753367] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.753448] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.753477] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.753505] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.753532] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.753560] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.753588] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.753616] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.753642] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.753669] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.753696] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.753724] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.753775] (ros2_kitti_publishers) StderrLine: {'line': b'  871 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.753801] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.753826] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.753852] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.753878] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.753903] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.753928] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.753953] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.753978] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.754002] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.754027] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.754052] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.754077] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.754103] (ros2_kitti_publishers) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.754128] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.754152] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754178] (ros2_kitti_publishers) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[2.754262] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.754290] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754319] (ros2_kitti_publishers) StderrLine: {'line': b'  883 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[2.754346] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.754374] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.754401] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.754429] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.754455] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.754484] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.754546] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.754576] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.754602] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.754628] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.754655] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.754681] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.754706] (ros2_kitti_publishers) StderrLine: {'line': b'  887 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.754731] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.754755] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.754781] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.754807] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.754835] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.754860] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.754886] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.754911] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.754936] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.754960] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.754986] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.755011] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.755036] (ros2_kitti_publishers) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.755061] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.755086] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755113] (ros2_kitti_publishers) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[2.755138] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.755163] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755188] (ros2_kitti_publishers) StderrLine: {'line': b'  924 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K;\n'}
+[2.755213] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.755237] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.755262] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.755287] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.755312] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755337] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.755361] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.755386] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755410] (ros2_kitti_publishers) StderrLine: {'line': b'  955 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.755436] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.755461] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.755487] (ros2_kitti_publishers) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.755511] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.755536] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755563] (ros2_kitti_publishers) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[2.755591] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.755617] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755645] (ros2_kitti_publishers) StderrLine: {'line': b'  956 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[2.755707] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.755735] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.755763] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.755790] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.755853] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.755879] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.755904] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.755929] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.755955] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.755979] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.756004] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.756029] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.756055] (ros2_kitti_publishers) StderrLine: {'line': b'  960 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.756079] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.756104] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.756129] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.756153] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.756179] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.756204] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.756229] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.756254] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.756279] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.756304] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.756331] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.756356] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.756383] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.756408] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.756432] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756458] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.756482] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.756507] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756534] (ros2_kitti_publishers) StderrLine: {'line': b' 1001 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.756560] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.756588] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.756681] (ros2_kitti_publishers) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.756707] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.756732] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756758] (ros2_kitti_publishers) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[2.756784] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.756809] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756837] (ros2_kitti_publishers) StderrLine: {'line': b' 1002 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[2.756863] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.756888] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.756915] (ros2_kitti_publishers) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.756942] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.756967] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756994] (ros2_kitti_publishers) StderrLine: {'line': b' 1007 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K;\n'}
+[2.757020] (ros2_kitti_publishers) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.757045] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.757070] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.757095] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.757120] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.757146] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.757171] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.757197] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.757222] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.757247] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.757273] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.757299] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.757326] (ros2_kitti_publishers) StderrLine: {'line': b' 1007 |         PCL_ADD_UNION_RGB\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.757351] (ros2_kitti_publishers) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.757377] (ros2_kitti_publishers) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[2.757402] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.757429] (ros2_kitti_publishers) StderrLine: {'line': b' 1006 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.757454] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.757479] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.757507] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.757583] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.757610] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.757636] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.757663] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.757688] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.757714] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.757740] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.757768] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.757796] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.757823] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.757848] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.757873] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.757899] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.757924] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.757950] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.757976] (ros2_kitti_publishers) StderrLine: {'line': b' 1085 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.758002] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.758031] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.758059] (ros2_kitti_publishers) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.758087] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.758115] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.758193] (ros2_kitti_publishers) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[2.758220] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.758247] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.758274] (ros2_kitti_publishers) StderrLine: {'line': b' 1086 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[2.758301] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.758327] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.758353] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.758378] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.758404] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.758429] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.758454] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.758484] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.758510] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.758536] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.758562] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.758588] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.758615] (ros2_kitti_publishers) StderrLine: {'line': b' 1090 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.758641] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.758666] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.758692] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.758717] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.758742] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.758767] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.758795] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.758844] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.758872] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.758900] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.758927] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.758954] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.758979] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.759004] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.759030] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.759055] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.759081] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.759105] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.759130] (ros2_kitti_publishers) StderrLine: {'line': b' 1135 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.759156] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.759181] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.759208] (ros2_kitti_publishers) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.759233] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.759257] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.759284] (ros2_kitti_publishers) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[2.759310] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.759336] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.759361] (ros2_kitti_publishers) StderrLine: {'line': b' 1136 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[2.759389] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.759414] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.759440] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.759464] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.759490] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.759516] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.759541] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.759566] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.759592] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.759618] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.759644] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.759670] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.759696] (ros2_kitti_publishers) StderrLine: {'line': b' 1140 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.759722] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.759746] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.759773] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.759799] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.759826] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.759852] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.759879] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.759905] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.759933] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.759984] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.760013] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.760039] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.760065] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.760091] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.760116] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.760142] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.760168] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.760193] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.760219] (ros2_kitti_publishers) StderrLine: {'line': b' 1187 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.760244] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.760269] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.760295] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.760320] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.760346] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.760372] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.760397] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.760423] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.760448] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.760473] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.760499] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.760524] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.760551] (ros2_kitti_publishers) StderrLine: {'line': b' 1191 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.760577] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.760602] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.760629] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.760655] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.760682] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.760708] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.760735] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.760761] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.760786] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.760811] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.760837] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.760862] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.760891] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.760917] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.760942] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.760967] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.760993] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.761019] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.761045] (ros2_kitti_publishers) StderrLine: {'line': b' 1226 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.761070] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.761095] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.761122] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.761147] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.761172] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.761198] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.761223] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.761249] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.761274] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.761300] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.761326] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.761352] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.761377] (ros2_kitti_publishers) StderrLine: {'line': b' 1230 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.761403] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.761428] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.761454] (ros2_kitti_publishers) StderrLine: {'line': b' 1326 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.761479] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.761505] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.761530] (ros2_kitti_publishers) StderrLine: {'line': b' 1519 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.761556] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.781446] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.781658] (ros2_kitti_publishers) StderrLine: {'line': b' 1738 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.781699] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.781730] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.781765] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.781794] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.781822] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.781849] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.781876] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.781901] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.781927] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.781954] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.781983] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.782013] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.782042] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.782069] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.782095] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782123] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.782148] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.782221] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782254] (ros2_kitti_publishers) StderrLine: {'line': b' 1765 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.782284] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.782314] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.782343] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.782372] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.782400] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782450] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.782483] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.782511] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782540] (ros2_kitti_publishers) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[2.782569] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.782596] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.782625] (ros2_kitti_publishers) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.782652] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.782679] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782707] (ros2_kitti_publishers) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[2.782734] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.782761] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782887] (ros2_kitti_publishers) StderrLine: {'line': b' 1819 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[2.782953] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.782987] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.783019] (ros2_kitti_publishers) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.783048] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.783075] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.783104] (ros2_kitti_publishers) StderrLine: {'line': b' 1824 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K;\n'}
+[2.783132] (ros2_kitti_publishers) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.783158] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.783184] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.783217] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.783245] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.783272] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.783298] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.783324] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.783352] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.783379] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.783408] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.783438] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.783468] (ros2_kitti_publishers) StderrLine: {'line': b' 1824 |         PCL_ADD_UNION_RGB\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.783496] (ros2_kitti_publishers) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.783524] (ros2_kitti_publishers) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[2.783552] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.783580] (ros2_kitti_publishers) StderrLine: {'line': b' 1823 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[2.783608] (ros2_kitti_publishers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.783655] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[2.783691] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[2.783757] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[2.783787] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[2.783813] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[2.783840] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[2.783867] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.783892] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.783921] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:26\x1b[m\x1b[K,\n'}
+[2.783948] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.783975] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.784009] (ros2_kitti_publishers) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[2.784035] (ros2_kitti_publishers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.784060] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.784086] (ros2_kitti_publishers) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[2.784112] (ros2_kitti_publishers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.784137] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.784162] (ros2_kitti_publishers) StderrLine: {'line': b' 1867 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K;\n'}
+[2.784187] (ros2_kitti_publishers) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.806472] (-) TimerEvent: {}
+[2.906673] (-) TimerEvent: {}
+[3.006945] (-) TimerEvent: {}
+[3.107203] (-) TimerEvent: {}
+[3.207539] (-) TimerEvent: {}
+[3.307880] (-) TimerEvent: {}
+[3.408205] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.408334] (-) TimerEvent: {}
+[3.408407] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.408448] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.408479] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.408509] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.408538] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.408566] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.408593] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.408620] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.408646] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.408683] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.408712] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:19\x1b[m\x1b[K,\n'}
+[3.408743] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[3.408770] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid KittiPublishersNode::on_timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.408798] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:60:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.408830] (ros2_kitti_publishers) StderrLine: {'line': b'   60 |     RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"OxTs size: \'%i\'"\x1b[m\x1b[K, \x1b[32m\x1b[Koxts_parsed_array.size()\x1b[m\x1b[K);\n'}
+[3.408857] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.408883] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.408909] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.408934] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:60:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.408961] (ros2_kitti_publishers) StderrLine: {'line': b'   60 |     RCLCPP_INFO(this->get_logger(), "OxTs size: \'\x1b[01;36m\x1b[K%i\x1b[m\x1b[K\'", oxts_parsed_array.size());\n'}
+[3.408986] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.409013] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.409039] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.409064] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.425230] (ros2_kitti_publishers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.425348] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.425392] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.425422] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.425450] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.425477] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.425505] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.425532] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.425558] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.425585] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.425611] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.425637] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:19\x1b[m\x1b[K,\n'}
+[3.425665] (ros2_kitti_publishers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3\x1b[m\x1b[K:\n'}
+[3.425693] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string KittiPublishersNode::get_path(KittiPublishersNode::PublisherType)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.425724] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:120:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[KKittiPublishersNode::PublisherType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.425756] (ros2_kitti_publishers) StderrLine: {'line': b'  120 |   RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"get_path: \'%i\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kpublisher_type\x1b[m\x1b[K);\n'}
+[3.425783] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.425809] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.425834] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[KKittiPublishersNode::PublisherType\x1b[m\x1b[K\n'}
+[3.425861] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:120:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.425888] (ros2_kitti_publishers) StderrLine: {'line': b'  120 |   RCLCPP_INFO(this->get_logger(), "get_path: \'\x1b[01;36m\x1b[K%i\x1b[m\x1b[K\'", publisher_type);\n'}
+[3.425914] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.425940] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.425965] (ros2_kitti_publishers) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.508466] (-) TimerEvent: {}
+[3.608791] (-) TimerEvent: {}
+[3.709151] (-) TimerEvent: {}
+[3.809475] (-) TimerEvent: {}
+[3.909809] (-) TimerEvent: {}
+[4.010143] (-) TimerEvent: {}
+[4.110490] (-) TimerEvent: {}
+[4.210868] (-) TimerEvent: {}
+[4.311201] (-) TimerEvent: {}
+[4.411473] (-) TimerEvent: {}
+[4.511813] (-) TimerEvent: {}
+[4.612139] (-) TimerEvent: {}
+[4.712476] (-) TimerEvent: {}
+[4.812741] (-) TimerEvent: {}
+[4.912969] (-) TimerEvent: {}
+[5.013226] (-) TimerEvent: {}
+[5.113463] (-) TimerEvent: {}
+[5.213742] (-) TimerEvent: {}
+[5.314064] (-) TimerEvent: {}
+[5.414405] (-) TimerEvent: {}
+[5.514757] (-) TimerEvent: {}
+[5.615003] (-) TimerEvent: {}
+[5.715322] (-) TimerEvent: {}
+[5.815644] (-) TimerEvent: {}
+[5.915964] (-) TimerEvent: {}
+[6.016294] (-) TimerEvent: {}
+[6.116635] (-) TimerEvent: {}
+[6.154462] (ros2_kitti_publishers) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libros2_kitti_publishers.so\x1b[0m\n'}
+[6.216833] (-) TimerEvent: {}
+[6.317153] (-) TimerEvent: {}
+[6.395283] (ros2_kitti_publishers) StdoutLine: {'line': b'[ 50%] Built target ros2_kitti_publishers\n'}
+[6.412292] (ros2_kitti_publishers) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable kitti_publishers\x1b[0m\n'}
+[6.417382] (-) TimerEvent: {}
+[6.517731] (-) TimerEvent: {}
+[6.618106] (-) TimerEvent: {}
+[6.682888] (ros2_kitti_publishers) StdoutLine: {'line': b'[100%] Built target kitti_publishers\n'}
+[6.696330] (ros2_kitti_publishers) CommandEnded: {'returncode': 0}
+[6.718306] (-) TimerEvent: {}
+[6.725694] (ros2_kitti_publishers) JobProgress: {'identifier': 'ros2_kitti_publishers', 'progress': 'install'}
+[6.725744] (ros2_kitti_publishers) Command: {'cmd': ['/home/rohit/.local/bin/cmake', '--install', '/home/rohit/pcl_ws/build/ros2_kitti_publishers'], 'cwd': '/home/rohit/pcl_ws/build/ros2_kitti_publishers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rohit/pcl_ws/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rohit'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/cuda-11.8/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blade:@/tmp/.ICE-unix/2387,unix/blade:/tmp/.ICE-unix/2387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e7534d42_6668_4bd3_9f5a_8d92bed3d800'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/pcl_ws/build/ros2_kitti_publishers'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble')]), 'shell': False}
+[6.740168] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.740297] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/include/\n'}
+[6.740358] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers\n'}
+[6.740414] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/WGS84toCartesian.hpp\n'}
+[6.740468] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/kitti_publishers_node.hpp\n'}
+[6.740522] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/visibility.h\n'}
+[6.740575] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch\n'}
+[6.740627] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch/README.md\n'}
+[6.740687] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Installing: /home/rohit/pcl_ws/install/ros2_kitti_publishers/lib/libros2_kitti_publishers.so\n'}
+[6.742331] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Set runtime path of "/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib/libros2_kitti_publishers.so" to ""\n'}
+[6.742582] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Installing: /home/rohit/pcl_ws/install/ros2_kitti_publishers/lib/ros2_kitti_publishers/kitti_publishers\n'}
+[6.742671] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Set runtime path of "/home/rohit/pcl_ws/install/ros2_kitti_publishers/lib/ros2_kitti_publishers/kitti_publishers" to ""\n'}
+[6.742704] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/package_run_dependencies/ros2_kitti_publishers\n'}
+[6.742731] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/parent_prefix_path/ros2_kitti_publishers\n'}
+[6.742757] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.sh\n'}
+[6.742783] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.dsv\n'}
+[6.742807] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.sh\n'}
+[6.742831] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.dsv\n'}
+[6.742855] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.bash\n'}
+[6.742878] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.sh\n'}
+[6.742900] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.zsh\n'}
+[6.742923] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.dsv\n'}
+[6.742945] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Installing: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.dsv\n'}
+[6.742972] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/packages/ros2_kitti_publishers\n'}
+[6.742995] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig.cmake\n'}
+[6.743017] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig-version.cmake\n'}
+[6.743039] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/rohit/pcl_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.xml\n'}
+[6.745767] (ros2_kitti_publishers) CommandEnded: {'returncode': 0}
+[6.785803] (ros2_kitti_publishers) JobEnded: {'identifier': 'ros2_kitti_publishers', 'rc': 0}
+[6.786557] (-) EventReactorShutdown: {}

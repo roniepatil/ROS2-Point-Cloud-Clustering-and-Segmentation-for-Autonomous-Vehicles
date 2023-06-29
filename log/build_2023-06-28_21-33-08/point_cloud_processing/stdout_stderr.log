@@ -1,0 +1,15 @@
+[  6%] [32mBuilding CXX object CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o[0m
+[ 18%] Built target circular_cloud
+[ 31%] Built target pcd_import
+[ 43%] Built target kd_tree
+[ 56%] Built target plane_cloud
+[ 68%] Built target filtering_segmentation
+[ 81%] Built target path_creation
+[ 93%] Built target kitti_voxel
+[01m[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/7_traffic_segmentation.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+    4 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/traffic_segmentation.dir/build.make:76: CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/traffic_segmentation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

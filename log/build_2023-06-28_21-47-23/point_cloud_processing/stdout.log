@@ -1,0 +1,7 @@
+[ 12%] Built target kd_tree
+[ 25%] Built target pcd_import
+[ 37%] Built target plane_cloud
+[ 50%] Built target circular_cloud
+[ 62%] Built target filtering_segmentation
+[ 75%] Built target kitti_voxel
+[ 87%] Built target path_creation

@@ -1,0 +1,2 @@
+Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '2': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20

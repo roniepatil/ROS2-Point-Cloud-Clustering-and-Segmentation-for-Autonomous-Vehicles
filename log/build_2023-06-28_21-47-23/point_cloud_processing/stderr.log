@@ -1,0 +1,4 @@
+gmake[2]: *** No rule to make target '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/7_traffic_segmentation.cpp', needed by 'CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/traffic_segmentation.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

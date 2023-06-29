@@ -1,0 +1,29 @@
+[33mCMake Warning (dev) at /home/rohit/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /home/rohit/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at CMakeLists.txt:24 (find_package):
+  By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "gazebo_ros_pkgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "gazebo_ros_pkgs"
+  with any of the following names:
+
+    gazebo_ros_pkgsConfig.cmake
+    gazebo_ros_pkgs-config.cmake
+
+  Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+  set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+  If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

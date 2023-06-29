@@ -1,0 +1,9 @@
+[ 25%] Built target turtlebot3_drive
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libignition-math6.so.6.12.0', needed by 'libobstacles.so'.  Stop.
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libignition-math6.so.6.12.0', needed by 'libobstacle2.so'.  Stop.
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libignition-math6.so.6.12.0', needed by 'libobstacle1.so'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/obstacle1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/obstacles.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

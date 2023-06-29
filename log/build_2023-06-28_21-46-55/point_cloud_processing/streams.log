@@ -1,0 +1,17 @@
+[0.018s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.052s] [  6%] [32mBuilding CXX object CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o[0m
+[0.055s] [ 18%] Built target pcd_import
+[0.056s] [ 31%] Built target plane_cloud
+[0.057s] [ 43%] Built target circular_cloud
+[0.058s] [ 56%] Built target kd_tree
+[0.062s] [ 68%] Built target filtering_segmentation
+[0.064s] [ 81%] Built target path_creation
+[0.065s] [ 93%] Built target kitti_voxel
+[0.088s] [01m[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/7_traffic_segmentation.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud2.hpp: No such file or directory
+[0.088s]     7 | #include [01;31m[K"sensor_msgs/msg/point_cloud2.hpp"[m[K
+[0.088s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.088s] compilation terminated.
+[0.089s] gmake[2]: *** [CMakeFiles/traffic_segmentation.dir/build.make:76: CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o] Error 1
+[0.089s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/traffic_segmentation.dir/all] Error 2
+[0.089s] gmake: *** [Makefile:146: all] Error 2
+[0.093s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/turtlebot3_gazebo:/home/rohit/pcl_ws/install/ros2_kitti_publishers:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20

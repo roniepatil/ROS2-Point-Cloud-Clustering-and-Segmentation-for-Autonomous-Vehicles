@@ -1,0 +1,2 @@
+Invoking command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20
+Invoked command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20

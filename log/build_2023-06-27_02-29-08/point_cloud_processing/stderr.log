@@ -1,0 +1,7 @@
+[01m[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/0_table_scene.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kpcl/io/pcd_io.h: No such file or directory
+    2 | #include [01;31m[K<pcl/io/pcd_io.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pcd_import.dir/build.make:76: CMakeFiles/pcd_import.dir/src/0_table_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcd_import.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

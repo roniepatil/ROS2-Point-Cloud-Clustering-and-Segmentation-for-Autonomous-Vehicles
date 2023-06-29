@@ -1,0 +1,163 @@
+[0.199s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.199s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe3c5d7cbe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe3c6053700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe3c6053700>>)
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.220s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rohit/pcl_ws'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing' with type 'ros.ament_cmake' and name 'point_cloud_processing'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rohit/pcl_ws/install
+[0.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/rohit/ros2_ws/install
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/humble
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'point_cloud_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rohit/pcl_ws/build/point_cloud_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rohit/pcl_ws/install/point_cloud_processing', 'merge_install': False, 'path': '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rohit/pcl_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rohit/pcl_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing' with build type 'ament_cmake'
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing'
+[0.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/pcl_ws/install/point_cloud_processing:/opt/ros/humble /home/rohit/.local/bin/cmake --install /home/rohit/pcl_ws/build/point_cloud_processing
+[0.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/rohit/pcl_ws/install/turtlebot3_gazebo' for CMake module files
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/rohit/pcl_ws/install/turtlebot3_gazebo' for CMake config files
+[0.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/rohit/pcl_ws/install/turtlebot3_gazebo/lib'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/rohit/pcl_ws/install/turtlebot3_gazebo/bin'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/rohit/pcl_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/rohit/pcl_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/rohit/pcl_ws/install/turtlebot3_gazebo/bin'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[0.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rohit/pcl_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[0.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[0.457s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.461s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.479s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohit/pcl_ws/install/local_setup.ps1'
+[0.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rohit/pcl_ws/install/_local_setup_util_ps1.py'
+[0.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohit/pcl_ws/install/setup.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohit/pcl_ws/install/local_setup.sh'
+[0.483s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rohit/pcl_ws/install/_local_setup_util_sh.py'
+[0.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohit/pcl_ws/install/setup.sh'
+[0.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohit/pcl_ws/install/local_setup.bash'
+[0.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohit/pcl_ws/install/setup.bash'
+[0.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rohit/pcl_ws/install/local_setup.zsh'
+[0.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rohit/pcl_ws/install/setup.zsh'

@@ -1,0 +1,9 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'kitti_voxel' was not
+  found before
+Call Stack (most recent call first):
+  CMakeLists.txt:48 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:554: cmake_check_build_system] Error 1

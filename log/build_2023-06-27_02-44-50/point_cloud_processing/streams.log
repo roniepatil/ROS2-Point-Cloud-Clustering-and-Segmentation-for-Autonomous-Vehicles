@@ -1,0 +1,114 @@
+[0.007s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.036s] -- Checking for module 'eigen3'
+[0.041s] --   Found eigen3, version 3.4.0
+[0.054s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.054s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.062s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.071s] -- Checking for module 'flann'
+[0.076s] --   Found flann, version 1.9.1
+[0.098s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.098s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.125s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.161s] -- Found Threads: TRUE  
+[0.162s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.166s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.235s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.235s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.237s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.245s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.261s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.271s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.321s] -- Found X11: /usr/include   
+[0.321s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.355s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.355s] -- Looking for gethostbyname
+[0.385s] -- Looking for gethostbyname - found
+[0.385s] -- Looking for connect
+[0.415s] -- Looking for connect - found
+[0.415s] -- Looking for remove
+[0.445s] -- Looking for remove - found
+[0.445s] -- Looking for shmat
+[0.475s] -- Looking for shmat - found
+[0.475s] -- Looking for IceConnectionNumber in ICE
+[0.506s] -- Looking for IceConnectionNumber in ICE - found
+[0.554s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[0.556s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[0.557s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[0.558s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[0.566s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.569s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[0.574s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[0.577s] -- Found utf8cpp: /usr/include/utf8cpp  
+[0.615s] -- Checking for module 'libusb-1.0'
+[0.621s] --   Found libusb-1.0, version 1.0.25
+[0.636s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.636s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[0.636s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.659s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[0.659s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.659s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.794s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.798s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.802s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.930s] -- Found Qhull version 8.0.2
+[1.057s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.171s] -- looking for PCL_COMMON
+[1.171s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.171s] -- looking for PCL_KDTREE
+[1.172s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.172s] -- looking for PCL_OCTREE
+[1.172s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.172s] -- looking for PCL_SEARCH
+[1.173s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.173s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.174s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.174s] -- looking for PCL_FILTERS
+[1.174s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.174s] -- looking for PCL_2D
+[1.174s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.174s] -- looking for PCL_GEOMETRY
+[1.174s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.174s] -- looking for PCL_IO
+[1.175s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.175s] -- looking for PCL_FEATURES
+[1.176s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.176s] -- looking for PCL_ML
+[1.176s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.176s] -- looking for PCL_SEGMENTATION
+[1.177s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.177s] -- looking for PCL_VISUALIZATION
+[1.177s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.177s] -- looking for PCL_SURFACE
+[1.178s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.178s] -- looking for PCL_REGISTRATION
+[1.178s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.179s] -- looking for PCL_KEYPOINTS
+[1.179s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.179s] -- looking for PCL_TRACKING
+[1.180s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.180s] -- looking for PCL_RECOGNITION
+[1.180s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.180s] -- looking for PCL_STEREO
+[1.181s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.181s] -- looking for PCL_APPS
+[1.182s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.182s] -- looking for PCL_IN_HAND_SCANNER
+[1.182s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.182s] -- looking for PCL_MODELER
+[1.182s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.182s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.183s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.183s] -- looking for PCL_OUTOFCORE
+[1.183s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.183s] -- looking for PCL_PEOPLE
+[1.184s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.184s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.12") 
+[1.185s] -- Configuring incomplete, errors occurred!
+[1.185s] See also "/home/rohit/pcl_ws/build/point_cloud_processing/CMakeFiles/CMakeOutput.log".
+[1.185s] [31mCMake Error at CMakeLists.txt:37 (ament_package):
+[1.185s]   Unknown CMake command "ament_package".
+[1.185s] 
+[1.185s] [0m
+[1.190s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.193s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '2': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20

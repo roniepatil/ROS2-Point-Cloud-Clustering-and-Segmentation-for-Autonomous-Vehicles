@@ -1,0 +1,14 @@
+[0.006s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.026s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.132s] -- Configuring done
+[0.134s] -- Generating done
+[0.135s] -- Build files have been written to: /home/rohit/pcl_ws/build/point_cloud_processing
+[0.143s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_import.dir/src/0_table_scene.cpp.o[0m
+[0.161s] [01m[K/home/rohit/pcl_ws/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/0_table_scene.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kpcl/io/pcd_io.h: No such file or directory
+[0.161s]     2 | #include [01;31m[K<pcl/io/pcd_io.h>[m[K
+[0.161s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.161s] compilation terminated.
+[0.162s] gmake[2]: *** [CMakeFiles/pcd_import.dir/build.make:76: CMakeFiles/pcd_import.dir/src/0_table_scene.cpp.o] Error 1
+[0.162s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcd_import.dir/all] Error 2
+[0.162s] gmake: *** [Makefile:146: all] Error 2
+[0.167s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '2': /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20

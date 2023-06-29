@@ -1,0 +1,85 @@
+[0.008s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[0.031s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.099s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.122s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.310s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.314s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.314s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.434s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.437s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.441s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.552s] -- Found Qhull version 8.0.2
+[0.669s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.782s] -- looking for PCL_COMMON
+[0.782s] -- looking for PCL_KDTREE
+[0.782s] -- looking for PCL_OCTREE
+[0.782s] -- looking for PCL_SEARCH
+[0.783s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.783s] -- looking for PCL_FILTERS
+[0.783s] -- looking for PCL_2D
+[0.783s] -- looking for PCL_GEOMETRY
+[0.783s] -- looking for PCL_IO
+[0.784s] -- looking for PCL_FEATURES
+[0.784s] -- looking for PCL_ML
+[0.784s] -- looking for PCL_SEGMENTATION
+[0.784s] -- looking for PCL_VISUALIZATION
+[0.785s] -- looking for PCL_SURFACE
+[0.785s] -- looking for PCL_REGISTRATION
+[0.785s] -- looking for PCL_KEYPOINTS
+[0.786s] -- looking for PCL_TRACKING
+[0.786s] -- looking for PCL_RECOGNITION
+[0.786s] -- looking for PCL_STEREO
+[0.787s] -- looking for PCL_APPS
+[0.787s] -- looking for PCL_IN_HAND_SCANNER
+[0.787s] -- looking for PCL_MODELER
+[0.787s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.787s] -- looking for PCL_OUTOFCORE
+[0.788s] -- looking for PCL_PEOPLE
+[0.789s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.805s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.806s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.810s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.870s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.871s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.948s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.053s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.136s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.220s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.299s] [33mCMake Warning (dev) at CMakeLists.txt:18 (find_package):
+[1.299s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.299s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.299s]   command to set the policy and suppress this warning.
+[1.299s] 
+[1.299s]   CMake variable PCL_ROOT is set to:
+[1.299s] 
+[1.299s]     /usr
+[1.299s] 
+[1.299s]   For compatibility, CMake is ignoring the variable.
+[1.299s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.299s] [0m
+[1.340s] -- Configuring done
+[1.351s] -- Generating done
+[1.352s] -- Build files have been written to: /home/rohit/pcl_ws/build/point_cloud_processing
+[1.376s] [100%] Built target pcd_import
+[1.382s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/point_cloud_processing -- -j20 -l20
+[1.423s] Invoking command in '/home/rohit/pcl_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rohit/.local/bin/cmake --install /home/rohit/pcl_ws/build/point_cloud_processing
+[1.438s] -- Install configuration: ""
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/lib/point_cloud_processing/pcd_import
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[1.438s] -- Installing: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[1.438s] -- Installing: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[1.438s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[1.438s] -- Installing: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[1.439s] -- Installing: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[1.439s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[1.439s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[1.439s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[1.439s] -- Up-to-date: /home/rohit/pcl_ws/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[1.442s] Invoked command in '/home/rohit/pcl_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/rohit/.local/bin/cmake --install /home/rohit/pcl_ws/build/point_cloud_processing

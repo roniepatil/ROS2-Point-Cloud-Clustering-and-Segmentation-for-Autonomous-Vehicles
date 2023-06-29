@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20
+[0.037s] [ 25%] Built target turtlebot3_drive
+[0.057s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libignition-math6.so.6.12.0', needed by 'libobstacle1.so'.  Stop.
+[0.057s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libignition-math6.so.6.12.0', needed by 'libobstacle2.so'.  Stop.
+[0.058s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libignition-math6.so.6.12.0', needed by 'libobstacles.so'.  Stop.
+[0.058s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Error 2
+[0.058s] gmake[1]: *** Waiting for unfinished jobs....
+[0.058s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/obstacles.dir/all] Error 2
+[0.058s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/obstacle1.dir/all] Error 2
+[0.058s] gmake: *** [Makefile:146: all] Error 2
+[0.062s] Invoked command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20

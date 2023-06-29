@@ -1,0 +1,23 @@
+[0.007s] Invoking command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20
+[0.030s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.106s] -- Configuring incomplete, errors occurred!
+[0.106s] See also "/home/rohit/pcl_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.107s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[0.107s]   By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+[0.107s]   asked CMake to find a package configuration file provided by "gazebo", but
+[0.107s]   CMake did not find one.
+[0.107s] 
+[0.107s]   Could not find a package configuration file provided by "gazebo" with any
+[0.107s]   of the following names:
+[0.107s] 
+[0.107s]     gazeboConfig.cmake
+[0.107s]     gazebo-config.cmake
+[0.107s] 
+[0.107s]   Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+[0.107s]   "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+[0.107s]   provides a separate development package or SDK, be sure it has been
+[0.107s]   installed.
+[0.107s] 
+[0.107s] [0m
+[0.108s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[0.113s] Invoked command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/rohit/.local/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20

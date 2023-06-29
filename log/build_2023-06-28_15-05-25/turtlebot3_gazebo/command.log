@@ -1,0 +1,2 @@
+Invoking command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo': /usr/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20
+Invoked command in '/home/rohit/pcl_ws/build/turtlebot3_gazebo' returned '2': /usr/bin/cmake --build /home/rohit/pcl_ws/build/turtlebot3_gazebo -- -j20 -l20
